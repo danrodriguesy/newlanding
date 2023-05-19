@@ -1,0 +1,187 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+/* @import url('//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css'); */
+
+body {
+  margin: 0;
+  font-family: "Poppins", Sans-serif;
+  background-color: #000;
+}
+.header {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}
+.left {
+  text-align: center;
+}
+.left p {
+  color: #fff;
+  font-size: 30px;
+}
+button.linktelegram {
+  border: 0;
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  animation: myanimation 2s infinite;
+}
+@keyframes myanimation {
+  0% {
+    background-color: cyan;
+    color: #000;
+  }
+  25% {
+    background-color: green;
+    color: #fff;
+  }
+  50% {
+    background-color: cyan;
+    color: #000;
+  }
+  75% {
+    background-color: green;
+    color: #fff;
+  }
+  100% {
+    background-color: cyan;
+    color: #000;
+  }
+}
+.logo {
+  width: 20%;
+}
+.esca {
+  margin: 1rem 0;
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.linksection {
+  font-size: 18px !important;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.linksection:hover {
+  color: #fff;
+}
+.provas {
+  height: auto;
+  background-color: #000;
+}
+.slick-slider {
+  margin-bottom: 0 !important;
+}
+.slick-track {
+  display: flex;
+  gap: 2rem;
+}
+.footer {
+    margin-top: 5rem;
+    clear: both;
+    position: relative;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1a1a19;
+    -webkit-box-shadow: 10px -22px 113px 42px rgba(10,9,10,1);
+    -moz-box-shadow: 10px -22px 113px 42px rgba(10,9,10,1);
+    box-shadow: 10px -22px 113px 42px rgba(10,9,10,1);
+}
+.footer h5 {
+  color: #bb50ff;
+}
+.footer p {
+  margin-top: 2rem;
+  font-size: 13px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.titulo h2 {
+    color: #FFF;
+    font-weight: bold;
+    margin: 2rem;
+    font-size: 25px;
+}
+
+/* slider */
+.slider img {
+    width: 220px;
+    height: auto;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+.slick-prev {
+  left: 0 !important;
+}
+.slider {
+  position: relative;
+  height: 500px;
+  background: #000;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.slick-slide {
+  height: 500px !important;
+}
+
+.slideCopy-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slideCopy-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background: red;
+  color: black;
+}
+
+.slick-prev {
+  left: 20px !important;
+  color: black;
+  z-index: 1000;
+}
+
+.slick-next {
+  right: 50px !important;
+  z-index: 1000;
+}
+
+.slick-dots li button::before {
+  font-size: 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+    background-color: none;
+    /* font-family: 'FontAwesome' !important; */
+    font-size: 38pt !important;
+    color: purple !important;
+}
+.slick-arrow {
+    -webkit-box-shadow: 0px 0px 70px 164px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 70px 164px rgba(0,0,0,0.87);
+    box-shadow: 0px 0px 70px 164px rgba(0,0,0,0.87);
+    background-color: black !important;
+}
+.slick-dots li button:before {
+    color: #CCC !important;
+    font-size: 20px !important;   
+}
+.slick-dots li.slick-active button:before {
+    color: purple !important;
+}
